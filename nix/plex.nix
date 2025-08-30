@@ -1,5 +1,10 @@
 # /etc/nixos/plex.nix
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
 {
   # No return value here, this is a module that directly modifies the system config
